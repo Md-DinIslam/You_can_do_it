@@ -6,9 +6,8 @@ void solve()
     cin >> t;
     while (t--) {
         int n;
-        cin >> n;
         string s;
-        cin >> s;
+        cin >> n >> s;
         int cnt = 0, ok = 0;
         for (auto &x : s) {
             if (x != '.') {
